@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+main {
+    padding: 100px;
+}
+
+.info {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.entireTextMargin {
+    margin-left: 50px;
+}
+
+.personalData span {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.academicsSubtitles {
+    font-weight: bold;
+}
+
+.academicsMargin {
+    margin-left: 79px;
+    display: block;
+}
+
+
+.subtitles, h1 {
+    font-feature-settings: "cpsp" on;
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 14px;
+}
+
+
+footer {
+    background-color: #005677;
+    color: #FFFFFF;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+footer img {
+    margin-left: 25px;
+}
